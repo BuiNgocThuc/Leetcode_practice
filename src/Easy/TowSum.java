@@ -63,7 +63,7 @@ public class TowSum {
         public static void main(String[] args) {
                 TowSum tsProblem = new TowSum(new int[]{3,2,4}, 6);
 
-                int[] res = tsProblem.offerSolution();
+                int[] res = tsProblem.offerSolution2();
                 System.out.println(Arrays.toString(res));
         }
 }
