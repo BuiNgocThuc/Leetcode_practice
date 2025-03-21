@@ -51,9 +51,9 @@ public class TowSum {
                 Map<Integer, Integer> preElements = new HashMap<>();
 
                 for (int i = 0; i < nums.length; ++i) {
-                        Integer valIdx = preElements.get(nums[i]);
-                        if (valIdx != null)
-                                return new int[]{valIdx, i};
+                        Integer savedIdx= preElements.get(nums[i]); // key  of remainingNums
+                        if (savedIdx != null)
+                                return new int[]{savedIdx, i};
                         preElements.put(target-nums[i], i);
                 }
 

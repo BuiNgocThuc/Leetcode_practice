@@ -11,8 +11,8 @@ public class Main {
                 do {
                         System.out.println("\n==== Leetcode practice ====");
                         System.out.println("1. Two Sum");
-                        System.out.println("2. Option 2");
-                        System.out.println("3. Option 3");
+                        System.out.println("2. Palindrome Number");
+                        System.out.println("3. Roman To Integer");
                         System.out.println("4. Exit");
                         System.out.print("Enter your choice: ");
 
@@ -32,10 +32,10 @@ public class Main {
                                         System.out.println(Arrays.toString(res));
                                         break;
                                 case 2:
-                                        System.out.println("You selected Option 2.");
+                                        System.out.println("You selected Palindrome Number problem.");
                                         break;
                                 case 3:
-                                        System.out.println("You selected Option 3.");
+                                        System.out.println("You selected Roman To Integer problem.");
                                         break;
                                 case 4:
                                         System.out.println("Exiting the program...");
