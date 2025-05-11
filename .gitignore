@@ -1,1 +1,41 @@
+# IntelliJ IDEA
 .idea/
+*.iml
+
+# Hệ thống
+.DS_Store
+Thumbs.db
+
+# Java
+/Java/build/
+/Java/out/
+/Java/bin/
+/Java/dist/
+/Java/.apt_generated
+/Java/.classpath
+/Java/.factorypath
+/Java/.project
+/Java/.settings
+/Java/.springBeans
+/Java/.sts4-cache
+/Java/nbproject/private/
+/Java/nbbuild/
+/Java/nbdist/
+/Java/.nb-gradle/
+
+# JavaScript
+/JavaScript/node_modules/
+
+# Python
+/Python/__pycache__/
+/Python/*.pyc
+
+# Biến môi trường
+.env
+
+# VS Code
+.vscode/
+
+# Tệp tạm
+*.log
+*.tmp
